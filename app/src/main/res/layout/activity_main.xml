@@ -20,6 +20,7 @@
 
 
         <EditText
+            android:id="@+id/name"
             android:inputType="text"
             android:layout_weight="2"
             android:layout_width="wrap_content"
@@ -33,6 +34,7 @@
             />
 
         <EditText
+            android:id="@+id/sum"
             android:inputType="number"
             android:layout_weight="1"
             android:layout_width="wrap_content"
@@ -44,10 +46,11 @@
             />
 
         <ImageButton
+            android:id="@+id/add"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:src="@drawable/ic_add_black_24dp"
+            android:src="@drawable/btn_add_selector"
             android:background="@color/transparent"
             android:layout_marginStart="5dp"
             android:contentDescription="@string/add_btn_description"
