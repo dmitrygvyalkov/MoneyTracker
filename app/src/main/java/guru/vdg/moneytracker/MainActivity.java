@@ -14,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
+        String title = getString(R.string.new_title);
+        setTitle(title);
     }
 
     @Override
