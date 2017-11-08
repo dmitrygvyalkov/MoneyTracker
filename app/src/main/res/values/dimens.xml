@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="textSizePrimary">20sp</dimen>
+    <dimen name="new_nameHintSize">20sp</dimen>
+    <dimen name="new_layoutPadding">16dp</dimen>
+    <dimen name="block_shadow_haight">5dp</dimen>
 </resources>
